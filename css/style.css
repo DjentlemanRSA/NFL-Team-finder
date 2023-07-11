@@ -1,0 +1,154 @@
+.site-header {
+    /* background-image: url("/wp-content/uploads/2023/07/adrian-curiel-0ndQ1W0w99Q-unsplash-scaled.jpg") !important; */
+    height: 10vh;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    row-gap: var(--global--spacing-vertical);
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    padding-bottom: 40px !important;
+}
+
+@media screen and (max-width: 600px) {
+    .site-header {
+        height: 17vh !important;
+        padding: 0px !important;
+        margin: 0px !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
+    .conferenceFilterButton {
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .homepageBanner {
+        padding: 10px !important; 
+    }
+}
+
+.site-header > .site-logo {
+    border-bottom: none !important;
+    width: 50% !important;
+    padding-bottom: 0px !important;
+}
+
+.menu-item a {
+    text-decoration: none !important;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.menu-item a:hover {
+    background: black;
+    color: white !important;
+    transition: background 0.25s;
+}
+
+h1 {
+    margin-bottom: 20px !important;
+    font-size: 45px !important;
+}
+
+h3, h4 {
+    margin-bottom: 20px !important;
+}
+
+@media only screen and (min-width: 822px) {
+    .site-header {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+.content {
+    background: white;
+    padding: 40px !important;
+}
+
+.teamConferenceName {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.conferenceFilter {
+    margin-bottom: 20px;
+}
+
+.conferenceFilter div {
+    padding: 0px !important;
+}
+
+.homepageBanner {
+    background-image: url("/wp-content/uploads/2023/07/adrian-curiel-0ndQ1W0w99Q-unsplash-scaled.jpg") !important;
+    background-size: cover;
+    color: black;
+    padding: 40px;
+}
+
+.overlay--dark {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.teamList .col-3 h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.teamList .col-3 h6 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}
+
+.card-header {
+    background: black !important;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 0px !important;
+}
+
+.card-title {
+    background: #c7c7c7;
+    color: #1e1e1e;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 0px !important;
+}
+
+.teamDivision {
+    background: #303f30;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+    width: 75%;
+    margin: 0px auto;
+    font-weight: 500;
+}
+
+.teamLogo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
